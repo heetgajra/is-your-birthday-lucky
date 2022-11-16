@@ -1,0 +1,62 @@
+
+:root {
+  --primary-brown: #a58031;
+  --primary-red: #b03636;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--primary-brown);
+  text-align: center;
+  color: var(--primary-red);
+  padding: 0;
+  margin: auto;
+  height: 100rem;
+}
+
+.container {
+  width: 100%;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.label-birthDay {
+  padding: 1rem;
+}
+#birthday {
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  border-color: var(--primary-red);
+}
+
+.label-luckyNumber {
+  padding: 0.5rem;
+}
+
+#lucky-no {
+  padding: 0.5rem;
+  width: 70px;
+  height: 10px;
+  border-radius: 1rem;
+  border-color: var(--primary-red);
+}
+
+#check-btn {
+  padding: 1rem 1rem;
+}
+
+button {
+  border-radius: 0.5rem;
+  border-color: white;
+  width: 80px;
+  height: 30px;
+}
