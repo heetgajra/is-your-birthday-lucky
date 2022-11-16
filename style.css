@@ -2,6 +2,7 @@
 :root {
   --primary-brown: #a58031;
   --primary-red: #b03636;
+  --primary-green: #329532
 }
 
 html,
@@ -35,7 +36,7 @@ label {
   padding: 0.5rem;
   text-align: center;
   border-radius: 1rem;
-  border-color: var(--primary-red);
+  border-color: var(--primary-green);
 }
 
 .label-luckyNumber {
@@ -59,4 +60,5 @@ button {
   border-color: white;
   width: 80px;
   height: 30px;
+  border-color:var(--primary-green);
 }
